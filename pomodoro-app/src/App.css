@@ -1,0 +1,102 @@
+html {
+  width: 100vw;
+  display: flex;
+  /*flex-direction:column;*/
+  justify-content: center;
+  text-align: center;
+  color: #1f1f7a;
+  font-family: arial;
+  font-weight: 100;
+  background: #ffccff;
+}
+h1 {
+  margin: 32px 0 40px;
+  /*color:white;*/
+  font-size: 2em;
+  font-family: arial;
+  font-style: italic;
+}
+button {
+  background: white;
+  border: #1f1f7a;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  color: #1f1f7a;
+  transition: 0.2s;
+  font-style: oblique;
+}
+.App {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 25px;
+  /*background-color:white;*/
+}
+h2 {
+  margin: 24px 0 16px;
+  font-size: 2em;
+}
+.clockDisplay {
+  font-size: 60px;
+}
+span {
+  font-size: 24px;
+}
+div {
+  display: inline;
+}
+.startPauseStop {
+  margin: 8px 0 8px;
+}
+button {
+  margin: 26px 8px 16px;
+  padding: 8px 24px;
+}
+
+.clockSetter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+  margin: 0 0 24px;
+}
+.clockSetter_Label {
+  margin: 16px 0 8px;
+}
+.clockSetter_Element {
+  display: flex;
+  align-items: center;
+  margin: 0 16px;
+  font-size: 40px;
+}
+.clockSetter_Numeral {
+  width: 48px;
+}
+.clockSetter_Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  margin: 10px 8px 0px;
+  font-size: 20px;
+
+  border-radius: 100%;
+}
+
+@media (max-width: 780px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .timer {
+    font-size: 80px;
+  }
+
+  .buttons button {
+    font-size: 18px;
+  }
+}
