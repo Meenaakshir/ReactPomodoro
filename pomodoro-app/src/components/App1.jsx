@@ -189,7 +189,7 @@ class App1 extends Component {
   render() {
     return (
       <div>
-        <h1>My Pomodoro Clock</h1>
+        <h1>Pomodoro Timer</h1>
         <div className="App">
           <Statusdisplayer workingStatus={this.state.working} />
           <ClockDisplayer
